@@ -1,0 +1,12 @@
+name: LunaticTags
+version: ${project.version}
+main: xyz.poulton.tags.LunaticTags
+prefix: LunaticTags
+depend: [Vault,PlaceholderAPI,LuckPerms]
+authors: [__lucyy]
+description: Tags plugin for 1.16 
+website: poulton.xyz
+commands:
+  ltags:
+    description: LunaticTags test command
+    usage: "Usage: /ltags <player>|reload"

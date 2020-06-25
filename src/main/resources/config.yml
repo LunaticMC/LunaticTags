@@ -1,0 +1,17 @@
+ordergroups:
+  main:
+    order: 0
+    useShortTags: false
+
+tags:
+  default:
+    weight: 0
+    ordergroup: 'main'
+    tag:
+      - '{"text":"[","color":"dark_gray"}'
+      - '{"text":"Default","color":"gray"}'
+      - '{"text":"]","color":"dark_gray"}'
+    tagshort:
+      - '{"text":"[","color":"dark_gray"}'
+      - '{"text":"D","color":"gray"}'
+      - '{"text":"]","color":"dark_gray"}'
