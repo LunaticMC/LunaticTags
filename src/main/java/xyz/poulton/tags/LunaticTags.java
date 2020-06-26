@@ -13,6 +13,7 @@ public final class LunaticTags extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        saveDefaultConfig();
         this.permission = getServer().getServicesManager().getRegistration(Permission.class).getProvider();
         this.handler = new TagHandler(permission);
         this.reader = new ConfigReader(this);
