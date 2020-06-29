@@ -1,4 +1,4 @@
-package xyz.poulton.tags;
+package xyz.poulton.LunaticTags.tag;
 
 import net.md_5.bungee.api.chat.BaseComponent;
 

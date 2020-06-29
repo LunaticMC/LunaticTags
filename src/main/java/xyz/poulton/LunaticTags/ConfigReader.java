@@ -1,9 +1,10 @@
-package xyz.poulton.tags;
+package xyz.poulton.LunaticTags;
 
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.chat.ComponentSerializer;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
+import xyz.poulton.LunaticTags.tag.Tag;
 
 import java.io.*;
 import java.util.*;

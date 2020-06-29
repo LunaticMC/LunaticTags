@@ -1,9 +1,10 @@
 // Copyright © Lucy Poulton 2020. All rights reserved.
 
-package xyz.poulton.tags;
+package xyz.poulton.LunaticTags;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import net.milkbowl.vault.permission.Permission;
+import xyz.poulton.LunaticTags.extensions.TagsPlaceholderExpansion;
 
 public final class LunaticTags extends JavaPlugin {
 

@@ -1,11 +1,10 @@
-package xyz.poulton.tags;
+package xyz.poulton.LunaticTags.extensions;
 
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.chat.ComponentSerializer;
-import org.bukkit.ChatColor;
 import org.bukkit.OfflinePlayer;
-import org.bukkit.entity.Player;
+import xyz.poulton.LunaticTags.LunaticTags;
 
 public class TagsPlaceholderExpansion extends PlaceholderExpansion {
     private final LunaticTags plugin;
@@ -36,9 +35,8 @@ public class TagsPlaceholderExpansion extends PlaceholderExpansion {
     public String toTabFormat(BaseComponent[] tags) {
         StringBuilder output = new StringBuilder();
         for (BaseComponent tag : tags) {
-            if (tag.getColor().name().startsWith("#")) {
-                output.append(tag.getColor().name());
-            }
+            if (tag.getColor().name().startsWith("#")) output.append(tag.getColor().name());
+            else output.append(tag.getColor().toString());
             if (tag.isBold()) output.append("&l");
             if (tag.isItalic()) output.append("&o");
             if (tag.isUnderlined()) output.append("&n");

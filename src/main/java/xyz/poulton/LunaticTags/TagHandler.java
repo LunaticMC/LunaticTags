@@ -1,10 +1,11 @@
 // Copyright © Lucy Poulton 2020. All rights reserved.
 
-package xyz.poulton.tags;
+package xyz.poulton.LunaticTags;
 
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.milkbowl.vault.permission.Permission;
 import org.bukkit.entity.Player;
+import xyz.poulton.LunaticTags.tag.TagAbstract;
 
 import java.util.*;
 import java.util.function.Predicate;

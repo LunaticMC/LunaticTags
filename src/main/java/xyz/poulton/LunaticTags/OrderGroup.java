@@ -1,4 +1,6 @@
-package xyz.poulton.tags;
+package xyz.poulton.LunaticTags;
+
+import xyz.poulton.LunaticTags.tag.TagAbstract;
 
 import java.util.ArrayList;
 

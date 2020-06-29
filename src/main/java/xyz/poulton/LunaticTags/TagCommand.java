@@ -1,4 +1,4 @@
-package xyz.poulton.tags;
+package xyz.poulton.LunaticTags;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
