@@ -1,6 +1,6 @@
 name: LunaticTags
 version: ${project.version}
-main: xyz.poulton.tags.LunaticTags
+main: xyz.poulton.LunaticTags.LunaticTags
 prefix: LunaticTags
 depend: [Vault,PlaceholderAPI,LuckPerms]
 authors: [__lucyy]
@@ -9,4 +9,6 @@ website: poulton.xyz
 commands:
   ltags:
     description: LunaticTags test command
+    permission: lunatictags.admin
+    permission-message: "No permission!"
     usage: "Usage: /ltags <player>|reload"

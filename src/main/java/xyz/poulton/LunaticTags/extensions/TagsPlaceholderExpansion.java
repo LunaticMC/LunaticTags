@@ -32,6 +32,11 @@ public class TagsPlaceholderExpansion extends PlaceholderExpansion {
         return "1.0.0";
     }
 
+    @Override
+    public boolean persist() {
+        return true;
+    }
+
     public String toTabFormat(BaseComponent[] tags) {
         StringBuilder output = new StringBuilder();
         for (BaseComponent tag : tags) {
